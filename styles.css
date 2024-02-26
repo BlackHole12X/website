@@ -1,0 +1,79 @@
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 29%, rgba(88,9,121,1) 100%, rgba(22,0,255,1) 100%);
+  color: #333;
+  margin: auto;
+}
+
+h1 {
+text-align: center;
+font-size: 36px;
+padding-top: 20px;
+}
+
+h2 {
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+
+.container {
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+background-color: #B39DDB;
+max-width: 600px;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 20px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 20px;
+}
+
+
+.readAll {
+  background-color: #741ec4;
+  color: #FAF5FF;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.readAll:hover {
+    background-color: #6215aa;
+  }
+
+  hr {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 0;
+    border-top: 3px solid #6215aa;
+  }
+
+.bio-full {
+  display: none;
+  padding-bottom: 20px;
+}
+
+
+.lyrics {
+  font-weight: 500;
+font-size: 16px;
+white-space: pre-line;
+padding-bottom: 15px;
+text-align: center;
+}
+
+footer {
+  text-align: center;
+}
